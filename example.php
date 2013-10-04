@@ -7,7 +7,7 @@
  * такого вида:http://ebash.org/logo.png
  */
 function vkrepost($message, $images = null){
-    $public = new Vkontakte('ID ГРУППЫ', 'ID ПРИЛОЖЕНИЯ ВКОНТАКТЕ', 'СЕКРЕТНЫЙ КЛЮЧ ПРИЛОЖЕНИЯ', 'avraamlinkoln@ya.ru - ВАША ЛОГИН VK ИЛИ ПОЧТА', '1234 - ВАШ ПАРОЛЬ');
+    $public = new Vkontakte('59117844', '3913461', 'Pgf3Oo0N9FYKrSEMZD0l', 'nacsymka@mail.ru', '#0991111unu#');
     
     $public->login();
     $callback = 'http://api.vk.com/blank.html';
